@@ -1,0 +1,13 @@
+package com.kluapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class KluEmployeeAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(KluEmployeeAppApplication.class, args);
+	}
+
+}
